@@ -1,0 +1,18 @@
+.TH KOLLISION 6
+.SH NAME
+kollision \- KDE collision game
+.SH SYNOPSIS
+.B kollision
+.I [Qt-options] [KDE-options]
+.SH DESCRIPTION
+In \fBKollision\fP you use mouse to control a small blue ball in a closed
+space environment filled with small red balls, which move about chaotically.
+Your goal is to avoid touching any of those red balls with your blue one,
+because the moment you do the game will be over. The longer you can stay in
+game the higher will your score be.
+.so kdeopt.part
+.SH SEE ALSO
+More detailed user documentation is available from
+.BR help:/kollision
+(either enter this URL into \fBkonqueror\fP, or run `khelpcenter
+help:/kollision').
