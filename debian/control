@@ -3,17 +3,19 @@ Section: games
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
- Sune Vuorela <sune@debian.org>,
- Fathi Boudra <fabo@debian.org>,
- Modestas Vainius <modax@debian.org>,
- George Kiagiadakis <gkiagiad@csd.uoc.gr>,
- Eshat Cakar <info@eshat.de>,
- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
- Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
- kdelibs5-dev (>= 4:4.11),
- libkdegames-dev (>= 4:4.11)
+           Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+           Eshat Cakar <info@eshat.de>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libkdegames-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kollision.git
@@ -21,14 +23,13 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kollision.git
 
 Package: kollision
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter4
-Description: simple ball dodging game 
+Description: simple ball dodging game
  In Kollision you use mouse to control a small blue ball in a closed space
- environment filled with small red balls, which move about chaotically. 
- Your goal is to avoid touching any of those red balls with your blue one, 
- because the moment you do the game will be over. The longer you can stay in 
+ environment filled with small red balls, which move about chaotically.
+ Your goal is to avoid touching any of those red balls with your blue one,
+ because the moment you do the game will be over. The longer you can stay in
  game the higher will your score be.
  .
  This package is part of the KDE games module.
-
