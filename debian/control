@@ -1,7 +1,7 @@
 Source: kollision
 Section: games
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
@@ -18,13 +18,13 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kollision.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kollision.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kollision.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kollision.git
 
 Package: kollision
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: khelpcenter4
+Recommends: khelpcenter
 Description: simple ball dodging game
  In Kollision you use mouse to control a small blue ball in a closed space
  environment filled with small red balls, which move about chaotically.
