@@ -2,8 +2,9 @@ kollision (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * New upstream release
+  * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 22:15:12 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 08:54:38 -0700
 
 kollision (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
