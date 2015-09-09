@@ -1,26 +1,4 @@
 ../icons/kollision-16.xpm /usr/share/pixmaps
 ../icons/kollision.xpm /usr/share/pixmaps
 usr/games/kollision
-usr/share/applications/kde4/kollision.desktop
-usr/share/doc/kde/HTML/en/kollision/common
-usr/share/doc/kde/HTML/en/kollision/index.cache.bz2
-usr/share/doc/kde/HTML/en/kollision/index.docbook
-usr/share/icons/hicolor/128x128/apps/kollision.png
-usr/share/icons/hicolor/16x16/apps/kollision.png
-usr/share/icons/hicolor/22x22/apps/kollision.png
-usr/share/icons/hicolor/32x32/apps/kollision.png
-usr/share/icons/hicolor/48x48/apps/kollision.png
-usr/share/icons/hicolor/64x64/apps/kollision.png
-usr/share/icons/oxygen/128x128/apps/kollision.png
-usr/share/icons/oxygen/16x16/apps/kollision.png
-usr/share/icons/oxygen/22x22/apps/kollision.png
-usr/share/icons/oxygen/32x32/apps/kollision.png
-usr/share/icons/oxygen/48x48/apps/kollision.png
-usr/share/icons/oxygen/64x64/apps/kollision.png
-usr/share/icons/oxygen/scalable/apps/kollision.svgz
-usr/share/kde4/apps/kollision/kollisionui.rc
-usr/share/kde4/apps/kollision/pictures/theme.svgz
-usr/share/kde4/apps/kollision/sounds/ball_leaving.ogg
-usr/share/kde4/apps/kollision/sounds/hit_wall.ogg
-usr/share/kde4/apps/kollision/sounds/start.ogg
-usr/share/kde4/apps/kollision/sounds/you_lose.ogg
+usr/share/*
