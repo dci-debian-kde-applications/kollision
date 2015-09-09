@@ -5,25 +5,31 @@ Upstream-Contact: Albert Astals Cid <aacid@kde.org>
 Source: http://www.kde.org/download/
 
 Files: *
-Copyright: 2007-2008, Paolo Capriotti <p.capriotti@gmail.com>
+Copyright: 2010, Brian Croom <brian.s.croom@gmail.com>
+           1989-1991, Free Software Foundation, Inc
+           2007, Paolo Capriotti <p.capriotti@gmail.com>
            2007-2008, Dmitri Suzdalev <dimsuz@gmail.com>
 License: GPL-2+
 
 Files: doc/*
-Copyright: 2008 Paolo Capriotti <p.capriotti@gmail.com>
+Copyright: 2007-2008, Dmitri Suzdalev <email>dimsuz@gmail.com</email>
+           2008 Paolo Capriotti <p.capriotti@gmail.com>
 License: GFDL-1.2+
 
-Files: ball.cpp
-       ball.h
-       mainarea.cpp
-       mainarea.h
-Copyright: 2007, Paolo Capriotti <p.capriotti@gmail.com>
-           2010, Brian Croom <brian.s.croom@gmail.com>
-License: GPL-2+
+Files: org.kde.kollision.appdata.xml
+Copyright: 2014, Edgar Muniz Berlinck <edgar.vv@gmail.com>
+License: CC0-1.0
 
 Files: debian/*
 Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
+
+License: CC0-1.0
+ To the extent possible under law, the person who associated CC0 with this
+ work has waived all copyright and related or neighboring rights to this work.
+ .
+ For more information about this licensing terms please see:
+ http://creativecommons.org/publicdomain/zero/1.0/
 
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
