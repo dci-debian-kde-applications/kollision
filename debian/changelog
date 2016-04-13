@@ -1,3 +1,11 @@
+kollision (4:15.12.3-1~1.gbp0e6e34) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @0e6e34ee860be0d6742bb9794c30fde6895481f9 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:03:47 +0200
+
 kollision (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
