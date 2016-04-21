@@ -1,10 +1,11 @@
-kollision (4:15.12.3-1~1.gbp0e6e34) UNRELEASED; urgency=medium
+kollision (4:16.04.0-1~1.gbp6d909a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0e6e34ee860be0d6742bb9794c30fde6895481f9 **
+  ** SNAPSHOT build @6d909a009b15e9a1b057c2a5878b8231d835a951 **
 
   * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:03:47 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:02:11 +0200
 
 kollision (4:15.12.1-1) experimental; urgency=medium
 
