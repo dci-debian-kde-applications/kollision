@@ -1,8 +1,11 @@
-kollision (4:15.12.2-1~) UNRELEASED; urgency=medium
+kollision (4:16.04.0-1~1.gbp6d909a) UNRELEASED; urgency=medium
 
-  * New upstream release (15.12.2).
+  ** SNAPSHOT build @6d909a009b15e9a1b057c2a5878b8231d835a951 **
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:45:24 +0100
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:02:11 +0200
 
 kollision (4:15.12.1-1) experimental; urgency=medium
 
