@@ -1,11 +1,20 @@
-kollision (4:16.04.0-1~1.gbp6d909a) UNRELEASED; urgency=medium
+kollision (4:16.04.0-1~2.gbp41887e) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @41887e7ef3c0895cbe6d8d1bf51067815abf8ba3 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @6d909a009b15e9a1b057c2a5878b8231d835a951 **
 
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:02:11 +0200
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:13:15 +0200
 
 kollision (4:15.12.1-1) experimental; urgency=medium
 
