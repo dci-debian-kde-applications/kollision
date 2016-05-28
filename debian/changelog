@@ -1,10 +1,6 @@
-kollision (4:16.04.0-1~2.gbp41887e) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @41887e7ef3c0895cbe6d8d1bf51067815abf8ba3 **
+kollision (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @6d909a009b15e9a1b057c2a5878b8231d835a951 **
-
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
@@ -14,7 +10,7 @@ kollision (4:16.04.0-1~2.gbp41887e) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:13:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 19:41:28 +0200
 
 kollision (4:15.12.1-1) experimental; urgency=medium
 
