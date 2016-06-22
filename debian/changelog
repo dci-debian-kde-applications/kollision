@@ -1,10 +1,8 @@
-kollision (4:16.04.2-1~1.gbpdf0225) UNRELEASED; urgency=medium
+kollision (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @df0225b3758f214f777dacee3016fa82aafccc48 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 04:02:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 21:53:45 +0200
 
 kollision (4:16.04.0-1) unstable; urgency=medium
 
