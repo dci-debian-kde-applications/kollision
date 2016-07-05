@@ -1,14 +1,22 @@
-kollision (4:16.04.1-0neon) xenial; urgency=medium
+kollision (4:16.04.2-1) unstable; urgency=medium
 
-  * New release
+  * New upstream release.
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:44:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 21:53:45 +0200
 
-kollision (4:15.12.2-1~) UNRELEASED; urgency=medium
+kollision (4:16.04.0-1) unstable; urgency=medium
 
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
   * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:45:24 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 19:41:28 +0200
 
 kollision (4:15.12.1-1) experimental; urgency=medium
 
