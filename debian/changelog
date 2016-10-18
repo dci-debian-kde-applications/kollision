@@ -1,16 +1,12 @@
-kollision (4:16.08.1-1~1.gbp523203) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @523203dce065c85ea169ff5549a05165bd2c05f8 **
+kollision (4:16.08.1-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @b8c0167f901e1b68f6fc5dbb7c534094a0d2d668 **
-
-  * UNRELEASED
+  * New upstream release (16.08.1)
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 22:02:33 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 00:12:03 +0200
 
 kollision (4:16.04.2-1) unstable; urgency=medium
 
