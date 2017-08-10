@@ -43,6 +43,8 @@ Package: kollision
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: simple ball dodging game
  In Kollision you use mouse to control a small blue ball in a closed space
  environment filled with small red balls, which move about chaotically.
