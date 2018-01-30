@@ -1,0 +1,52 @@
+---
+name: kollision
+version: 17.08.1
+summary: Casual ball game
+description: Kollision is a casual game where you need to throw your ball and avoid
+    the others balls on the table as long as possible.
+confinement: strict
+grade: stable
+apps:
+    kollision:
+        command: kf5-launch kollision
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+slots:
+    session-dbus-interface:
+        interface: dbus
+        name: org.kde.kollision
+        bus: session
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kollision:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libkf5kdegames-dev
+        - libkf5kdelibs4support-dev
+        - libphonon4qt5-dev
+        - libphonon4qt5experimental-dev
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/kollision-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
